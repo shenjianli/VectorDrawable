@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportHeight="200"
+    android:viewportWidth="200"
+    >
+
+    <path
+        android:name="left_ellipse"
+        android:strokeColor="@android:color/background_dark"
+        android:strokeWidth="1"
+        android:fillColor="@android:color/background_light"
+        android:pathData="M100,100 A50,50 0 1,1 100,200 A100,100 0 1,1 100,0 A50,50, 0, 1,0 100,100"
+        />
+
+    <path
+        android:name="left_ellipse"
+        android:strokeColor="@android:color/background_dark"
+        android:strokeWidth="1"
+        android:fillColor="@android:color/background_dark"
+        android:pathData="M100,100 A50,50 0 1,1 100,0 A100,100 0 1,1 100,200 A50,50, 0, 1,0 100,100"
+        />
+
+    <path
+        android:name="left_inner_circle"
+        android:strokeColor="@android:color/background_dark"
+        android:strokeWidth="1"
+        android:fillColor="@android:color/background_dark"
+        android:pathData="M100,130 A20,20 0 1,1 99,130"
+        />
+
+    <path
+        android:name="left_inner_circle"
+        android:strokeColor="@android:color/background_dark"
+        android:strokeWidth="1"
+        android:fillColor="@android:color/background_light"
+        android:pathData="M100,30 A20,20 0 1,1 99,30"
+
+        />
+</vector>
